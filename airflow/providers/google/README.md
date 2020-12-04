@@ -117,6 +117,7 @@ pip install apache-airflow-providers-google[amazon]
 | [apache-airflow-providers-microsoft-azure](https://pypi.org/project/apache-airflow-providers-microsoft-azure)   | microsoft.azure  |
 | [apache-airflow-providers-microsoft-mssql](https://pypi.org/project/apache-airflow-providers-microsoft-mssql)   | microsoft.mssql  |
 | [apache-airflow-providers-mysql](https://pypi.org/project/apache-airflow-providers-mysql)                       | mysql            |
+| [apache-airflow-providers-oracle](https://pypi.org/project/apache-airflow-providers-oracle)                     | oracle           |
 | [apache-airflow-providers-postgres](https://pypi.org/project/apache-airflow-providers-postgres)                 | postgres         |
 | [apache-airflow-providers-presto](https://pypi.org/project/apache-airflow-providers-presto)                     | presto           |
 | [apache-airflow-providers-salesforce](https://pypi.org/project/apache-airflow-providers-salesforce)             | salesforce       |
@@ -447,6 +448,7 @@ in [Naming conventions for provider packages](https://github.com/apache/airflow/
 | [cloud.transfers.facebook_ads_to_gcs.FacebookAdsReportToGcsOperator](https://github.com/apache/airflow/blob/master/airflow/providers/google/cloud/transfers/facebook_ads_to_gcs.py)    |
 | [cloud.transfers.gcs_to_local.GCSToLocalFilesystemOperator](https://github.com/apache/airflow/blob/master/airflow/providers/google/cloud/transfers/gcs_to_local.py)                    |
 | [cloud.transfers.gcs_to_sftp.GCSToSFTPOperator](https://github.com/apache/airflow/blob/master/airflow/providers/google/cloud/transfers/gcs_to_sftp.py)                                 |
+| [cloud.transfers.oracle_to_gcs.OracleToGCSOperator](https://github.com/apache/airflow/blob/master/airflow/providers/google/cloud/transfers/oracle_to_gcs.py)                           |
 | [cloud.transfers.presto_to_gcs.PrestoToGCSOperator](https://github.com/apache/airflow/blob/master/airflow/providers/google/cloud/transfers/presto_to_gcs.py)                           |
 | [cloud.transfers.salesforce_to_gcs.SalesforceToGcsOperator](https://github.com/apache/airflow/blob/master/airflow/providers/google/cloud/transfers/salesforce_to_gcs.py)               |
 | [cloud.transfers.sftp_to_gcs.SFTPToGCSOperator](https://github.com/apache/airflow/blob/master/airflow/providers/google/cloud/transfers/sftp_to_gcs.py)                                 |

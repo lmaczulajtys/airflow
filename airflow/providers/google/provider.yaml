@@ -630,6 +630,10 @@ transfers:
   - source-integration-name: Google Ads
     target-integration-name: Google Cloud Storage (GCS)
     python-module: airflow.providers.google.ads.transfers.ads_to_gcs
+  - source-integration-name: Oracle Database
+    target-integration-name: Google Cloud Storage (GCS)
+    python-module: airflow.providers.google.cloud.transfers.oracle_to_gcs
+    how-to-guide: /docs/apache-airflow-providers-google/operators/transfer/oracle_to_gcs.rst
 
 hook-class-names:
   - airflow.providers.google.cloud.hooks.dataprep.GoogleDataprepHook
